@@ -1,12 +1,42 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { v1 } from 'uuid';
+import Loading from './Loading';
 import styles from './Movies.module.css';
 
-function Movies(props) {
+function Movies() {
 	const [movies, setMovies] = useState([]);
+	const [loading, setLoading] = useState(true);
 
-	useEffect(() => {}, []);
+	useEffect(() => {
+		setLoading(true);
 
-	return <div></div>;
+		axios({
+			method: 'GET',
+			url: 'https://yts.mx/api/v2/list_movies.json?limit=50',
+		})
+			.then((res) => {
+				res.data.data.movies.map((movie) => {
+					const title = movie.title;
+					setMovies((movies) => [...movies, title]);
+					setLoading(false);
+				});
+			})
+			.catch((err) => {
+				console.log(err);
+			});
+	}, []);
+
+	return (
+		<div className={styles.movies}>
+			{loading ? <Loading /> : null}
+			{movies.map((movie) => (
+				<div key={v1()} className={styles.movie}>
+					{movie}
+				</div>
+			))}
+		</div>
+	);
 }
 
 export default Movies;
