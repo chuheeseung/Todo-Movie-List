@@ -1,0 +1,25 @@
+.header {
+	width: 100%;
+	height: 10%;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #ffffff;
+}
+
+.name,
+.routes {
+	font-size: 1rem;
+}
+
+.button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	transition: all ease 0.1s;
+	transform: scale(1.02);
+}

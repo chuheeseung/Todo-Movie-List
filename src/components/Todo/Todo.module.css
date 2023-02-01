@@ -1,0 +1,52 @@
+.todoItem {
+	width: 100%;
+	margin-left: 0.1rem;
+	margin-right: 0.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.text {
+	color: #878787;
+	font-size: 1.2rem;
+}
+
+.completed {
+	color: #dbdbdb;
+	font-size: 1rem;
+	text-decoration: line-through;
+}
+
+.input {
+	width: 60%;
+	border: none;
+	font-size: 1.2rem;
+	color: #878787;
+}
+
+.input:focus {
+	outline: none;
+	border-color: #e2e2e2;
+}
+
+.update,
+.delete {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.update:hover,
+.delete:hover {
+	transition: all ease 0.1s;
+	transform: scale(1.02);
+}
+
+.update {
+	color: blue;
+}
+
+.delete {
+	color: red;
+}
