@@ -14,19 +14,21 @@
 
 .completed {
 	color: #dbdbdb;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-decoration: line-through;
 }
 
 .input {
-	width: 60%;
+	width: 98%;
+	height: 2rem;
 	border: none;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	color: #878787;
 }
 
 .input:focus {
-	outline: none;
+	font-size: 1.2rem;
+	outline: 1px solid #878787;
 	border-color: #e2e2e2;
 }
 

@@ -49,7 +49,7 @@ function Todo({ todo, onUpdate, onDelete }) {
 					placeholder={todo.text}
 					className={styles.input}
 					onChange={handleChange}
-					onKeyPress={handleUpdate}
+					onKeyDown={handleUpdate}
 				/>
 			)}
 			{!toggle && (
