@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Movies from '../components/Movie/Movies';
 import styles from './MoviePage.module.css';
 
