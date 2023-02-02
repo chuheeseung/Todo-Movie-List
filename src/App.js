@@ -7,7 +7,7 @@ import Header from './components/Header/Header';
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Header />
 			<Routes>
 				<Route path="/" element={<TodoPage />} />
