@@ -16,6 +16,7 @@ function Movies() {
 			url: 'https://yts.mx/api/v2/list_movies.json?limit=50',
 		})
 			.then((res) => {
+				// eslint-disable-next-line
 				res.data.data.movies.map((movie) => {
 					const title = movie.title;
 					setMovies((movies) => [...movies, title]);
