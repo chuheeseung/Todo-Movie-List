@@ -11,7 +11,7 @@ function App() {
 		console.log('app js');
 	}, []);
 	return (
-		<BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
+		<BrowserRouter basename="Todo-Movie-List">
 			<Header />
 			<Routes>
 				<Route path="/" element={<TodoPage />} />
