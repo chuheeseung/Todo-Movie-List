@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Todo-Movie-List/static/css/main.7eeb1cfc.css",
-    "main.js": "/Todo-Movie-List/static/js/main.3bfdeaae.js",
-    "static/media/spinner.gif": "/Todo-Movie-List/static/media/spinner.73763ffc24d1eee2a668.gif",
-    "index.html": "/Todo-Movie-List/index.html",
-    "main.7eeb1cfc.css.map": "/Todo-Movie-List/static/css/main.7eeb1cfc.css.map",
-    "main.3bfdeaae.js.map": "/Todo-Movie-List/static/js/main.3bfdeaae.js.map"
+    "main.css": "https:/chuheeseung.github.io/Todo-Movie-List/static/css/main.7eeb1cfc.css",
+    "main.js": "https:/chuheeseung.github.io/Todo-Movie-List/static/js/main.bb996069.js",
+    "static/media/spinner.gif": "https:/chuheeseung.github.io/Todo-Movie-List/static/media/spinner.73763ffc24d1eee2a668.gif",
+    "index.html": "https:/chuheeseung.github.io/Todo-Movie-List/index.html",
+    "main.7eeb1cfc.css.map": "https:/chuheeseung.github.io/Todo-Movie-List/static/css/main.7eeb1cfc.css.map",
+    "main.bb996069.js.map": "https:/chuheeseung.github.io/Todo-Movie-List/static/js/main.bb996069.js.map"
   },
   "entrypoints": [
     "static/css/main.7eeb1cfc.css",
-    "static/js/main.3bfdeaae.js"
+    "static/js/main.bb996069.js"
   ]
 }

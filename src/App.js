@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 
 function App() {
 	useEffect(() => {
-		console.log(process.env.REACT_APP_PUBLIC_URL);
+		console.log(process.env.PUBLIC_URL);
 	}, []);
 	return (
 		<BrowserRouter basename={process.env.PUBLIC_URL}>
