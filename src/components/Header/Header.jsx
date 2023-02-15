@@ -12,7 +12,7 @@ function Header(props) {
 
 	return (
 		<header className={styles.header}>
-			<div className={styles.name}>프로그라피 프론트 추희승</div>
+			<div className={styles.name}>추희승</div>
 			<div className={styles.routes}>
 				<button className={styles.button} onClick={() => setButton('')}>
 					Todo

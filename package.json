@@ -1,6 +1,5 @@
 {
-	"homepage": "https://chuheeseung.github.io/Todo-Movie-List",
-	"name": "todo-movie",
+	"name": "Todo-Movie-List",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -23,8 +22,8 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "yarn build",
-		"deploy": "gh-pages -d build"
+		"predeploy": "npm run build",
+		"deploy": "gh-pages build"
 	},
 	"eslintConfig": {
 		"extends": [

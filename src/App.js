@@ -11,7 +11,7 @@ function App() {
 		console.log(process.env.PUBLIC_URL);
 	}, []);
 	return (
-		<BrowserRouter basename={process.env.PUBLIC_URL}>
+		<BrowserRouter>
 			<Header />
 			<Routes>
 				<Route path="/" element={<TodoPage />} />
